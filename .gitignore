@@ -1,0 +1,74 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+#### Distribution/Packaging/Environments
+\.DS_Store
+.idea/
+.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*
+.mypy*
+__pycache__
+__pycache__/
+**/__pycache__/*
+pkt_kg.egg*
+build/*
+dist/*
+
+#### Testing
+.single_run
+.coverage*
+coverage.xml
+.notipy.json
+\.vscode/
+/tests/archive/
+
+#### Logs
+logs/*.log
+**/logs/*.log
+
+#### CI/CD Builds
+builds/temp/*
+/builds/GitHub Action Workflow Build Jobs.xlsx
+
+#### API Keys/Project Passwords
+/resources/project_keys/*
+
+#### External Libraries
+pkt_kg/libs/deepwalk_c_master/*
+pkt_kg/libs/walking-rdf-and-owl-master/*
+
+#### Scripts
+pkt_kg/kg_embedding_visualizer.py
+pkt_kg/knowledge_graph_embedder.py
+scratch*.py
+
+#### Data and Directories
+/resources/*.json
+/resources/construction_approach/*
+/resources/edge_data/*
+/resources/embeddings/*
+/resources/knowledge_graphs/
+/resources/kr_model/
+/resources/node_data/*
+/resources/ontologies/*
+/resources/owl_decoding/*
+/resources/processed_data/*
+/resources/relations_data/*
+
+#### Dependency Files
+!/resources/construction_approach/README.md
+!/resources/edge_data/edge_source_metadata.txt
+!/resources/edge_data/README.md
+!/resources/embeddings/README.md
+!/resources/knowledge_graphs/README.md
+!/resources/node_data/README.md
+!/resources/ontologies/ontology_source_metadata.txt
+!/resources/ontologies/README.md
+!/resources/owl_decoding/README.md
+!/resources/relations_data/README.md
+
+#### Releases
+/releases/*
+
+#### Documentation
+/docs/make.bat
+/docs/build

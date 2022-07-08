@@ -1,0 +1,29 @@
+#!/usr/local/bin/docker
+# -*- version: 19.03.8, build afacb8b -*-
+
+
+# ignore all folders and subsequent files in working directory
+**/*
+
+
+##########################################
+## DOCKER CONTAINER FILES ##
+!Dockerfile
+!entrypoint.sh
+
+##########################################
+## PHEKNOWLATOR (PKT_KG) DIRECTORIES ##
+!resources/
+
+##########################################
+## PHEKNOWLATOR (PKT_KG) PACKAGE FILES ##
+# pkt_KG package files
+!pkt_kg/libs/owltools
+!pkt_kg/libs/*.py
+!pkt_kg/utils/*
+!pkt_kg/*.py
+!setup.py
+!README.rst
+
+# scripts needed to run pkt
+!Main.py
